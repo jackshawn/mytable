@@ -1,0 +1,57 @@
+.my-table {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  width: 100%;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+
+.my-table th,
+.my-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+
+  text-align: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 0;
+}
+
+.my-table .th-sort span {
+  position: absolute;
+  cursor: pointer;
+}
+
+.my-table .th-sort span:last-of-type {
+  transform: rotate(180deg);
+}
+
+.my-page {
+  margin: 5px auto;
+  text-align: center;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.my-page .active {
+  background: #337ab7;
+  color: #fff;
+}
+
+.my-page span {
+  display: inline-block;
+  padding: 1px 12px 0;
+  margin: 6px 3px;
+  border-radius: 2px;
+  cursor: pointer;
+  background: #f1eff0;
+  color: #666;
+}
+.my-table td.my-loading{
+  font-size: 24px;
+  text-align: center;
+  line-height: 48px;
+}
