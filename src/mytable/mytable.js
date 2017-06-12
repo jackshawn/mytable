@@ -700,6 +700,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         /*设置th*/
         $.each(option.thead, function (i, item) {
           var th = $('<th class="' + item.key + '">' + item.name + '</th>');
+          if (item.width) {
+            th.width(item.width);
+          }
           if (item.sort) {
             th.append('<span class="th-sort"> <span>^</span><span>^</span></span>');
           }
