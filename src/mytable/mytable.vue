@@ -140,6 +140,10 @@
     white-space: nowrap;
     max-width: 0;
   }
+
+  .my-table tr:hover{
+    background: #f5f5f5;
+  }
   
   .my-table .th-sort span {
     position: absolute;
