@@ -8,7 +8,7 @@
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
     "build": "node build/build.js",
-    "build-mytable": "webpack ./src/assets/mytable.js ./src/mytable/mytable.js"
+    "build-mytable": "webpack -p ./src/assets/mytable.js ./src/mytable/mytable.js"
   },
   "dependencies": {
     "jquery": "^1.12.1",
