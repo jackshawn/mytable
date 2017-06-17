@@ -2,14 +2,14 @@
 
 > 定义数据交互格式, 快速生成展示表格
 
-##Introduction
+## Introduction
 
 工作经常需要通过表格展示数据, 并有按字段排序, 以及翻页等需求。于是简单写了个jQuery插件 与Vue组件, 便于复用。
 
 
 ## option
 
-####请求数据:Object
+#### 请求数据:Object
 
 * type: string; 请求类型, 可选, 默认post
 * url: string; 请求地址
@@ -36,9 +36,9 @@
 	    }
 	  }
 	```
-无需特殊处理的列则将函数return true以默认文本形式插入
+  无需特殊处理的列则将函数return true以默认文本形式插入
 
-####返回数据:Object
+#### 返回数据:Object
 * data: Array; 表格数据, 为数组对象; 其中对象字段与thead中key相对应;例如:
 
 	```
@@ -95,7 +95,7 @@
 	  let timeReversed = $(this).text().split('').reverse().join('');
 	  alert(timeReversed)
 	})
-```
+  ```
 
 ## with Vue
 
