@@ -42,14 +42,14 @@
 * data: Array; 表格数据, 为数组对象; 其中对象字段与thead中key相对应;例如:
 
 	```
-	 data: [
-	 	 {
-			 name: 'mytable.js',
-			 time: '2017-06-17',
-			 author: 'jackshawn'
-		 },
-		 ...
-	 ],
+	  data: [
+	    {
+	      name: 'mytable.js',
+	      time: '2017-06-17',
+	      author: 'jackshawn'
+	    },
+	    ...
+	  ],
 	```
 * totalPage: number; 总页数
 * count: number; 总条数
